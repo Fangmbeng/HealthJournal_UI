@@ -58,21 +58,21 @@ export default function LandingPage() {
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[  
             {
-              title: "Monitor Health Metrics",
+              title: "AI-Powered Health Monitoring",
               description:
-                "Track vitals like heart rate, blood pressure, medication adherence, and overall wellness using real-time AI insights.",
+                "Effortlessly track vitals, medication routines, and daily wellness through smart, real-time AI check-ins.",
               gradient: "from-blue-500 to-green-400",
             },
             {
-              title: "Personalized Insights",
+              title: "DNA-Driven Health Insights",
               description:
-                "Get tailored health recommendations based on your unique profile, habits, and medical history—including DNA methylation data.",
+                "Unlock truly personalized care plans based on your lifestyle, health history, and optional DNA methylation data.",
               gradient: "from-teal-500 to-blue-400",
             },
             {
-              title: "Smart Scheduling & Alerts",
+              title: "Proactive Care & Smart Alerts",
               description:
-                "Automatically plan checkups, medications, and health check reminders. Stay one step ahead with proactive alerts.",
+                "Never miss a beat—automated scheduling, timely medication reminders, and emergency alerts keep you ahead of potential risks.",
               gradient: "from-green-500 to-teal-400",
             },
           ].map((card, i) => (
